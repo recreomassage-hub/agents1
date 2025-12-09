@@ -1,18 +1,18 @@
 # Промпты агентов для мультиагентной разработки в Claude Code и Cursor.
 
-Общее описание подхода: 00_agent_development.md
+Общее описание подхода: [00_agent_development.md](https://github.com/rdudov/agents/blob/master/00_agent_development.md)
 
 Промпт оркестратора, который координирует работу остальных агентов: 01_orchestrator.md
 
 Промпты агентов (названия говорят сами за себя):
-- 02_analyst_prompt.md
-- 03_tz_reviewer_prompt.md
-- 04_architect_prompt.md
-- 05_architecture_reviewer_prompt.md
-- 06_agent_planner.md
-- 07_agent_plan_reviewer.md
-- 08_agent_developer.md
-- 09_agent_code_reviewer.md
+- [02_analyst_prompt.md](https://github.com/rdudov/agents/blob/master/02_analyst_prompt.md)
+- [03_tz_reviewer_prompt.md](https://github.com/rdudov/agents/blob/master/03_tz_reviewer_prompt.md)
+- [04_architect_prompt.md](https://github.com/rdudov/agents/blob/master/04_architect_prompt.md)
+- [05_architecture_reviewer_prompt.md](https://github.com/rdudov/agents/blob/master/05_architecture_reviewer_prompt.md)
+- [06_agent_planner.md](https://github.com/rdudov/agents/blob/master/06_agent_planner.md)
+- [07_agent_plan_reviewer.md](https://github.com/rdudov/agents/blob/master/07_agent_plan_reviewer.md)
+- [08_agent_developer.md](https://github.com/rdudov/agents/blob/master/08_agent_developer.md)
+- [09_agent_code_reviewer.md](https://github.com/rdudov/agents/blob/master/09_agent_code_reviewer.md)
 
 Пример промпта для запуска мультиагентной разработки в Cursor, чтобы он автоматически стартовал субагентов с нужными ролями. 
 ```
